@@ -1,0 +1,164 @@
+
+* { 
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body { 
+    font-family:'Lucida Sans Regular';
+    text-align: center;
+}
+
+.intro-image { 
+    background-attachment: fixed;
+    background-image: url("../img/candle1.jpg");
+    background-position: center;
+    background-size: cover;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.intro-image__text a { 
+    background-color:
+    rgba(245, 222, 179, 0.297);
+    border:2px solid #dcc8a5;
+    color:white;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover { 
+    transform: scale(1.2);
+}
+
+.intro-text { 
+    background-color:
+    rgba(229, 218, 198, 0.741) ;
+    color:
+    rgb(73, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 15rem;
+    padding-bottom: 2rem;
+}
+
+.intro-text__textbox h3 { 
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    }
+
+.packaging-image {
+        background-attachment: fixed;
+        height: 450px;
+        background-size: cover;
+        background-position: bottom;
+        background-image: url('../img/candle3.jpg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+     }
+
+.packaging-image__text a { 
+        background-color:
+        rgba(238, 130, 238, 0.452);
+        border:2px solid #dcc8a5;
+        color:white;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+    }
+    
+    .packaging-image__text a:hover { 
+        transform: scale(1.2);
+    }
+    
+    .packaging-text { 
+        background-color:
+        rgb(237, 232, 237) ;
+        color:
+        rgb(138, 33, 33);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0 15rem;
+        padding-bottom: 2rem;
+    
+    }
+    
+    .packaging_text__textbox h3 { 
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        }  
+    
+    .tutorials-image {
+            background-attachment: fixed;
+            height: 450px;
+            background-size: cover;
+            background-position: bottom;
+            background-image: url('../img/candle2.jpg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 77%, 65% 89%, 32% 100%, 0 100%, 0% 43%, 0 0);
+            margin-bottom: -7rem;
+         }
+    
+    .tutorials-image__text a { 
+            background-color:
+            rgba(121, 11, 11, 0.54);
+            border:2px solid #dcc8a5;
+            color:white;
+            display: inline-block;
+            font-size: 4rem;
+            padding: 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 1s ease-in-out;
+    
+        }
+    .tutorials-image__text a:hover { 
+            transform: scale(1.2);
+        }  
+
+     
+     
+
+    .footer {
+            height:250px;
+            background-color: wheat;
+            color:black;
+            font-size: 2rem;
+            padding-top: 7rem;
+    
+            }
+        
+            .footer ul li { 
+                display: inline-block;
+                margin: 1rem;
+            }
+        
+            .footer ul li a { 
+                color:black;
+                text-decoration: none;
+            }
+        
+            .footer ul li:hover { 
+               transform:scale(1.3);
+            }
